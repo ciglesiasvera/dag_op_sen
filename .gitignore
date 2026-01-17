@@ -1,0 +1,22 @@
+# Entornos virtuales
+airflow_env/
+venv/
+.env
+
+# Airflow runtime
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Configuración local
+airflow.cfg
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+airflow.db*
